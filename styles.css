@@ -20,14 +20,12 @@ body {
 /* Nom du token */
 .token-name {
     font-size: 48px;
-    color: #fff; /* Texte en blanc */
     margin: 20px 0;
 }
 
 /* Slogan */
 .slogan {
     font-size: 24px;
-    color: #fff; /* Texte en blanc */
     margin: 10px 0;
 }
 
@@ -45,8 +43,8 @@ body {
     margin-bottom: 40px;
 }
 
-/* Section vidéo, centrée */
-.video-section {
+/* Section GIF, centrée */
+.gif-section {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -54,16 +52,14 @@ body {
     flex-direction: column;
 }
 
-.video-title {
+.gif-title {
     font-size: 24px;
-    color: #fff; /* Texte en blanc */
     margin-bottom: 20px;
 }
 
-/* Style de la vidéo */
-video {
+/* Style du GIF */
+.gif-image {
     border-radius: 10px;
     max-width: 100%;
     height: auto;
 }
-
