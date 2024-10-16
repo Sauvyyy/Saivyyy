@@ -57,9 +57,9 @@ body {
     margin-bottom: 20px;
 }
 
-/* Style du GIF */
+/* Style du GIF avec dimensions réduites */
 .gif-image {
     border-radius: 10px;
-    max-width: 100%;
-    height: auto;
+    width: 300px; /* Réduction de la largeur */
+    height: auto; /* Maintient du ratio d'aspect */
 }
