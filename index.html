@@ -1,26 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TONpanda</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <img src="panda_image.png" alt="TONpanda" class="panda-image">
-        <h1 class="token-name">$TONpanda</h1>
-        <p class="slogan">TONpanda the fun memcoin</p>
+/* Global styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fea7dd; /* Fond rose */
+    color: #000;
+    text-align: center;
+}
 
-        <!-- Total Supply Section -->
-        <p class="total-supply-title">Total Supply</p>
-        <p class="total-supply-amount">1,000,000,000</p>
+/* Container centré */
+.container {
+    padding: 50px;
+}
 
-           <!-- Espace pour le GIF -->
-        <div class="gif-section">
-            <p class="gif-title">Watch Our Fun GIF</p>
-            <img src="tonpanda.gif" alt="TONpanda GIF" class="gif-image">
-        </div>
-    </div>
-</body>
-</html>
+/* Image du panda */
+.panda-image {
+    width: 200px;
+}
+
+/* Nom du token */
+.token-name {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+/* Slogan */
+.slogan {
+    font-size: 24px;
+    margin: 10px 0;
+    line-height: 1.5; /* Espacement entre les lignes */
+    text-align: center; /* Centrer le texte */
+    color: #ffffff; /* Texte en blanc */
+}
+
+/* Section Total Supply */
+.total-supply-title {
+    font-size: 24px;
+    color: #fff; /* Texte en blanc */
+    margin: 20px 0 10px 0;
+}
+
+.total-supply-amount {
+    font-size: 36px;
+    color: #fff; /* Texte en blanc */
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Section GIF, centrée */
+.gif-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gif-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style du GIF avec dimensions réduites */
+.gif-image {
+    border-radius: 10px;
+    width: 300px; /* Réduction de la largeur */
+    height: auto; /* Maintient du ratio d'aspect */
+}
