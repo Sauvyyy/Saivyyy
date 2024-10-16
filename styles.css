@@ -20,15 +20,16 @@ body {
 /* Nom du token */
 .token-name {
     font-size: 48px;
-    color: #fff; /* Texte en blanc */
     margin: 20px 0;
 }
 
 /* Slogan */
 .slogan {
     font-size: 24px;
-    color: #fff; /* Texte en blanc */
     margin: 10px 0;
+    line-height: 1.5; /* Espacement entre les lignes */
+    text-align: center; /* Centrer le texte */
+    color: #ffffff; /* Texte en blanc */
 }
 
 /* Section Total Supply */
