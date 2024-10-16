@@ -20,12 +20,14 @@ body {
 /* Nom du token */
 .token-name {
     font-size: 48px;
+    color: #fff; /* Texte en blanc */
     margin: 20px 0;
 }
 
 /* Slogan */
 .slogan {
     font-size: 24px;
+    color: #fff; /* Texte en blanc */
     margin: 10px 0;
 }
 
