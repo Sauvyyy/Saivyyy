@@ -49,31 +49,34 @@ body {
 /* Roadmap Section */
 .roadmap-section {
     padding: 20px;
+    display: flex; /* Utiliser Flexbox */
+    justify-content: center; /* Centre les blocs horizontalement */
+    flex-wrap: wrap; /* Permet de passer à la ligne si l'espace est insuffisant */
 }
 
 .roadmap-section h2 {
     font-size: 28px;
     color: #ffffff;
+    width: 100%; /* Assure que le titre s'étend sur toute la largeur */
 }
 
 /* Phase Blocks */
 .phase-block {
     width: 300px;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px; /* Ajout d'une marge pour espacer les blocs */
     border: 2px solid #ffffff;
     background-color: #fea7dd;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease; /* Transition pour le mouvement */
     cursor: pointer; /* Montre que l'élément est interactif */
 }
 
 .phase-block:hover {
-    transform: translateY(-10px); /* Le bloc se soulève légèrement */
+    transform: translateX(10px); /* Déplacement vers la droite au survol */
 }
 
-/* Pour mobile, au "touch" */
 .phase-block:active {
-    transform: translateY(-10px); /* Le bloc bouge aussi sur mobile quand on le touche */
+    transform: translateX(-10px); /* Déplacement vers la gauche au clic */
 }
 
 .phase-block h3 {
