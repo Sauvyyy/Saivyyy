@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fea7dd; /* Fond rose */
+    background-color: #fea7dd;
     color: #000;
     text-align: center;
 }
@@ -27,28 +27,27 @@ body {
 .slogan {
     font-size: 24px;
     margin: 10px 0;
-    line-height: 1.5; /* Espacement entre les lignes */
+    line-height: 1.5;
     text-align: center;
-    color: #ffffff; /* Texte en blanc */
+    color: #ffffff;
 }
 
 /* Section Total Supply */
 .total-supply-title {
     font-size: 24px;
-    color: #fff; /* Texte en blanc */
+    color: #fff;
     margin: 20px 0 10px 0;
 }
 
 .total-supply-amount {
     font-size: 36px;
-    color: #fff; /* Texte en blanc */
+    color: #fff;
     font-weight: bold;
     margin-bottom: 40px;
 }
 
-/* Section Roadmap */
+/* Roadmap Section */
 .roadmap-section {
-    background-color: transparent; /* Suppression du fond noir */
     padding: 20px;
 }
 
@@ -57,17 +56,33 @@ body {
     color: #ffffff;
 }
 
-.roadmap-section h3 {
+.phase {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.phase h3 {
     font-size: 24px;
     color: #ffffff;
     margin-top: 20px;
 }
 
-.roadmap-section ul {
+.phase ul {
     list-style-type: none;
     padding-left: 0;
     color: #ffffff;
     font-size: 18px;
+}
+
+/* Animation for Phases */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Section Community */
