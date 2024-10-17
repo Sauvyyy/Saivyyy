@@ -66,9 +66,12 @@ body {
     padding: 20px;
     margin: 20px; /* Ajout d'une marge pour espacer les blocs */
     border: 2px solid #ffffff;
-    background-color: #fea7dd;
+    background-image: url('panda_image.png'); /* Utilise l'image panda_image.png */
+    background-size: cover; /* S'assurer que l'image couvre le bloc */
+    background-position: center; /* Centrer l'image */
     transition: transform 0.3s ease; /* Transition pour le mouvement */
     cursor: pointer; /* Montre que l'élément est interactif */
+    color: #ffffff; /* Texte blanc pour le contraste */
 }
 
 .phase-block:hover {
@@ -81,7 +84,6 @@ body {
 
 .phase-block h3 {
     font-size: 24px;
-    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -95,6 +97,8 @@ body {
 /* Section Community */
 .community-section {
     margin-top: 40px;
+    background-color: #000; /* Fond noir */
+    padding: 20px; /* Ajouter du padding pour espacer le contenu */
 }
 
 .community-section h2 {
