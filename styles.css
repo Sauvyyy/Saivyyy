@@ -56,33 +56,37 @@ body {
     color: #ffffff;
 }
 
-.phase {
-    animation: fadeIn 2s ease-in-out;
+/* Phase Blocks */
+.phase-block {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+    background-color: #fea7dd;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer; /* Montre que l'élément est interactif */
 }
 
-.phase h3 {
+.phase-block:hover {
+    transform: translateY(-10px); /* Le bloc se soulève légèrement */
+}
+
+/* Pour mobile, au "touch" */
+.phase-block:active {
+    transform: translateY(-10px); /* Le bloc bouge aussi sur mobile quand on le touche */
+}
+
+.phase-block h3 {
     font-size: 24px;
     color: #ffffff;
     margin-top: 20px;
 }
 
-.phase ul {
+.phase-block ul {
     list-style-type: none;
     padding-left: 0;
     color: #ffffff;
     font-size: 18px;
-}
-
-/* Animation for Phases */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* Section Community */
